@@ -8,6 +8,12 @@
 
 A full-featured **E-commerce Backend API** for XM Bakeries, a bakery business located in Kigali City, Nyarugenge District, Gitega Sector. Built with Node.js, Express, and MySQL.
 
+## 🚀 Live Demo
+
+- **API Base URL:** https://xm-bakeries-4biq.onrender.com
+- **Swagger UI:** https://xm-bakeries-4biq.onrender.com/api-docs
+- **Health Check:** https://xm-bakeries-4biq.onrender.com/health
+
 ---
 
 ## 📋 Table of Contents
@@ -21,7 +27,6 @@ A full-featured **E-commerce Backend API** for XM Bakeries, a bakery business lo
 - [Environment Variables](#environment-variables)
 - [Running the Application](#running-the-application)
 - [API Documentation](#api-documentation)
-- [Testing](#testing)
 - [Project Structure](#project-structure)
 
 ---
@@ -74,10 +79,11 @@ XM Bakeries needed a backend system to replace their manual Excel-based system. 
 - Order tracking with estimated delivery time
 - Customer purchase history
 
-### ✅ Week 6 — Swagger & Testing
+### ✅ Week 6 — Swagger & Testing & Deployment
 - Complete Swagger/OpenAPI 3.0 documentation
 - All endpoints documented with examples
-- API tested via Swagger UI and Postman
+- API tested via Swagger UI
+- Deployed on Render
 
 ---
 
@@ -349,20 +355,14 @@ Swagger UI is available at:
 http://localhost:3000/api-docs
 ```
 
-All endpoints are documented with:
-- Request body examples
-- Response schemas
-- Authentication requirements
-- Query parameters
+Live Swagger UI:
+```
+https://xm-bakeries-4biq.onrender.com/api-docs
+```
 
 ---
 
 ## Testing
-
-### Using Swagger UI
-1. Open `http://localhost:3000/api-docs`
-2. Click **Authorize** and enter your JWT token
-3. Test any endpoint directly from the browser
 
 ### Sample Test Flow
 ```bash
@@ -436,8 +436,9 @@ xm-bakeries/
 
 ## Author
 
-**Huguette Manzi Keza**
-XM Bakeries Backend API — L5 Software Development Assignment
+**Huguette Manzi Keza**  
+XM Bakeries Backend API — L5 Software Development Assignment  
+GitHub: https://github.com/huguette431/xm-bakeries
 
 ---
 
